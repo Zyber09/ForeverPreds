@@ -12,10 +12,10 @@ namespace ForeverPreds.Patches
             if (lvT == null || rvT == null)
                 CreateVelocityTrackers();
 
-            if (ControllerInputPoller.instance.rightGrab && Plugin.instance.gripToDisable)
+            if (ControllerInputPoller.instance.rightGrab && Plugin.instance.joystickDisable)
                 ControllerInputPoller.instance.rightControllerGripFloat = Plugin.instance.GetJoystickDown() ? 1f : 0f;
 
-            if (!(ControllerInputPoller.instance.rightGrab && Plugin.instance.gripToDisable))
+            if (!(ControllerInputPoller.instance.rightGrab && Plugin.instance.joystickDisable))
             VelocityLongArms(Plugin.instance.prediction);
         }
 
