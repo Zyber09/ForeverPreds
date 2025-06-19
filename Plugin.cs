@@ -12,7 +12,7 @@ namespace ForeverPreds
     {
         public static Plugin instance;
         public float prediction = 4f;
-        public bool gripToDisable = false;
+        public bool joystickDisable;
         void Start()
         {
             instance = this;
@@ -24,7 +24,7 @@ namespace ForeverPreds
             prediction = GUI.HorizontalSlider(new Rect(4f, 4f, 400f, 40f), prediction, 0f, 150f);
             GUI.Label(new Rect(414f, 4f, 1080f, 40f), "Power: " + prediction.ToString());
             GUI.Label(new Rect(4f, 40f, 900f, 40f), "Prediction slider by @goldentrophy");
-            gripToDisable = GUI.Toggle(new Rect(300f, 40f, 1080f, 40f), gripToDisable, "Right Grip to Disable");
+            joystickDisable = GUI.Toggle(new Rect(300f, 40f, 1080f, 40f), joystickDisable, "Right Joystick to Disable");
         }
 
         private bool IsSteam = true;

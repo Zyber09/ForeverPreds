@@ -7,6 +7,6 @@
     {
         public const string GUID = "com.goldentrophy.gorillatag.foreverpreds";
         public const string Name = "ForeverPreds";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
     }
 }
