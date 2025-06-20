@@ -1,3 +1,9 @@
+## What i added to this fork (original by IIDK, you can find his release [here](https://github.com/iiDk-the-actual/ForeverPreds/releases/latest))
+   - Better Looking GUI
+   - Saving  (uses bepinex config)
+   - Loading (uses bepinex config)   
+   Not rlly a big change but idc
+
 # ForeverPreds
 A mod for Gorilla Tag to give you higher controller predictions
 
@@ -5,10 +11,10 @@ A mod for Gorilla Tag to give you higher controller predictions
 
 ## Usage
 A GUI should pop up on your screen with a slider and other settings. Simply turn up or down the slider to increase your controller predictions and enable any other options you desire, and you're good to go!
-
+To toggle the GUI's visibility, Simply Press "insert", on your keyboard!
 ## Installation
 
-- Download the release from [here](https://github.com/iiDk-the-actual/ForeverPreds/releases/latest)
+- Download the release from [here](https://github.com/Zyber09/ForeverPreds/releases/latest) 
 - Drag the file `ForeverPreds.dll` to your plugins folder
 - Start Gorilla Tag if needed
 
