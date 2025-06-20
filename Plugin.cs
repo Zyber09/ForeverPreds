@@ -5,6 +5,7 @@ using System;
 using UnityEngine;
 using Valve.VR;
 
+
 namespace ForeverPreds
 {
     [BepInPlugin(PluginInfo.GUID, PluginInfo.Name, PluginInfo.Version)]
